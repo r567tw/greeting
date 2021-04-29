@@ -1,11 +1,16 @@
+// Package greeting echo Hello or echo Hi message.
 package greeting
 
-import "fmt"
+// Ha return "Ha"
+const Ha = "Ha"
 
-func HelloG(){
-	fmt.Println("From greeting Hello")
+// Hello return Hello message.
+/* test */
+func Hello() string {
+	return "Hello"
 }
 
-func HiG(){
-	fmt.Println("From greetingHi")
+// Hi return Hi message.
+func Hi() string {
+	return "Hi"
 }
